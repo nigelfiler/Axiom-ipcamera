@@ -1,62 +1,89 @@
-# Axiom-ipcamera
-How to add IPcamera to Raymarine Axiom plotter
+### **Axiom-IPCamera**  
+#### *How to add an IP camera to a Raymarine Axiom plotter*
 
-Raymarine do a nice range of cameras for their Axiom Pro plotters – problem is, they are upwards of £500.
+Raymarine offers a range of cameras for their Axiom Pro plotters, but they can cost upwards of **£500**.  
+There are ways to connect third-party IP cameras, but existing guides are outdated, and some cameras are discontinued. This guide provides an updated method.
 
-There are a few writeups out there where people have connected cheap IP cameras to the plotter, but they are about 2 years old, some of the information is in multiple places and the cameras are discontinued. The camera referenced in this write up will also become discontinued at some point in the future, so if you have a plan to do this, buy the camera referenced soon.
+---
 
-Plotter:
-Axiom Pro 9
+## 📌 **Hardware Requirements**  
 
-Camera:
-There are loads out there on ebay and Aliexpress, 1 first one I bought didn’t work (black screen on the plotter), but the 2nd one I bought, did work.
-This one is from Aliexpress and seems to work fine: Gadinan 8MP 5MP 4MP H.265 IP Camera
-Although it is a 4k camera with H265, it needs to be run on H264 at 720.  I bought the one with a 2.8mm focus.
+### **Plotter:**  
+- **Raymarine Axiom Pro 9**  
 
-POE:
-Power over Ethernet means the camera is powered by the network cable, so no requirement to run separate power to the camera, however POE is 48v, which is not available on a boat without converters etc.
-A camera without POE was chosen. This type of camera has a single lead coming out that splits into an ethernet female and a DC connector. This requires 12v.
-A passive POE injector at both ends will allow 12v to run to the camera. 12V will be supplied from somewhere near the helm.
+### **Camera:**  
+- *Recommended:* [Gadinan 8MP/5MP/4MP H.265 IP Camera](https://www.aliexpress.com) (Aliexpress)  
+  - Supports **4K** & **H.265**, but needs to run on **H.264 at 720p**  
+  - Recommended lens: **2.8mm focus**  
 
-Axiom Network:
-Axiom sells a Raynet to RJ45 cable, they are £50-£80 depending on length.
-There is a Raynet to Raynet cable in the Axiom box. This can be cut in half and a RJ45 can be crimped on the end. This will yield 2 cables, and therefore support 2 cameras without a network hub.
-The RJ45 diagram for this is shown later.
+### **Power Over Ethernet (POE) Considerations:**  
+- POE cameras require **48V**, which is not readily available on boats  
+- Instead, a **12V camera** is used with a **passive POE injector**  
+- **Power Source:** 12V near the helm  
 
-Camera setup:
-Axiom is fussy, firstly relating to authentication and then the stream settings.  
-The 3rd party camera needs some configuration and some cameras will just not work.
-Settings are show later, but essentially set the camera for H264, 1280x720 and a medium quality level.
-You need to configure the camera on a PC, before attempting to connect it to the Axiom. 
-Password for the web admin will be admin:123456 or admin:password or admin:admin, will be on the box somewhere.
-Turn off date and time in the on-screen display. The camera will not be able to connect to the internet to get the correct date/time, so you don’t want 1st Jan 1970 being shown on the display.
-You may want to turn on the camera name, eg Port Engine etc.
-Turn on ONVIF
-Disable ONVIF authentication
-ONVIF compatibility is very important, the Axiom needs to be able to access the stream without authenticating. Disabling ONVIF is a security risk, but not an issue on this closed network.
-RTSP Auth Enable – Not Enabled
-RTSP Port 554
+### **Network Connection:**  
+- Raymarine sells a **Raynet to RJ45 cable** (£50-£80)  
+- Alternative: Cut a **Raynet to Raynet cable** (included with Axiom) and crimp an **RJ45 connector**  
+- This method supports **two cameras** without needing a network hub  
 
-IPaddress:
-The Axiom provides DHCP so althought it is just a case of plugging the camera in and the Plotter will find the camera, it was found that a fixed IP address was more reliable.
-Using DHCP there was a pause when selecting the camera and sometimes the camera would go blank. When using a fixed IPaddress these issues went away.
+---
 
-These manual settings worked better than DHCP:
+## 🛠 **Camera Setup & Configuration**  
 
-DHCP - Disable
-Enter an Axiom friendly fixed IP address and Subnet Mask
-IPaddress: 198.18.2.91
-Subnet: 255.255.248.0
+1. **Configure the Camera on a PC First**  
+   - Default login credentials (check the box or manual):  
+     ```
+     Username: admin
+     Password: 123456 / password / admin
+     ```
+   - **Disable On-Screen Date/Time** (as the camera lacks internet access)  
+   - **Enable ONVIF**  
+   - **Disable ONVIF Authentication** (necessary for Axiom compatibility)  
 
-Enter the Axiom’s Default Gateway and Domain Server addresses
-198.18.2.46
-198.18.2.46
+2. **Video Stream Settings**  
+   - **Encoding:** H.264  
+   - **Resolution:** 1280x720  
+   - **Quality:** Medium  
+   - **RTSP Authentication:** Disabled  
+   - **RTSP Port:** 554  
 
-Thanks to forum member: "5TC" on the Sealine forum for discovering this
+---
 
-Cost:
-Gadinan 8MP/5MP/4MP H.265 IP Camera. Choose 12v version and not POE version £25. (Aliexpress)
-RJ45 Female to Female: £3
-Passive POE Adaptor: £1.67
-Raynet to Raynet cable, or Raynet to RJ45 Cable (about £50)
-2.1mm x 5.5mm DC Connector Male to Male Power Cable 1Mtr (about £2)
+## 🌐 **IP Address Configuration**  
+
+### **Static IP (Recommended for Stability)**
+Although Axiom has **DHCP**, using a **static IP** prevents delays and camera disconnections.
+
+#### **Manual IP Settings:**
+| Setting          | Value          |
+|-----------------|---------------|
+| DHCP           | **Disabled** |
+| IP Address     | `198.18.2.91` |
+| Subnet Mask    | `255.255.248.0` |
+| Default Gateway | `198.18.2.46` |
+| DNS Server     | `198.18.2.46` |
+
+> *Thanks to forum member "5TC" on the Sealine forum for discovering this!*  
+
+---
+
+## 💰 **Cost Breakdown**  
+
+| Item | Description | Price |
+|------|------------|-------|
+| **Camera** | Gadinan 8MP/5MP/4MP H.265 IP Camera (12V version, NOT POE) | **£25** |
+| **RJ45 Female-to-Female** | Needed for connection | **£3** |
+| **Passive POE Adapter** | For 12V power transmission | **£1.67** |
+| **Raynet to RJ45 Cable** | Alternative: Cut & crimp Raynet cable | **~£50** |
+| **DC Power Cable** | 2.1mm x 5.5mm Male-to-Male (1M) | **~£2** |
+
+---
+
+## ✅ **Conclusion**  
+
+By following this guide, you can successfully integrate an affordable **IP camera** with a **Raymarine Axiom plotter**—saving **hundreds of pounds** compared to official Raymarine cameras!  
+
+---
+
+Would you like any additional images, diagrams, or further refinements? 🚀
+
