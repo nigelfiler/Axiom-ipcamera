@@ -65,7 +65,7 @@ Although Axiom has **DHCP**, using a **static IP** prevents delays with the imag
 | Default Gateway | `198.18.2.46` |
 | DNS Server     | `198.18.2.46` |
 
-> *Thanks to forum member "5TC" on the Sealine forum for discovering this!*  
+> *Thanks to forum member "5TC" on the Sealine forum for discovering and documenting this*  
 
 ---
 
@@ -79,5 +79,5 @@ Although Axiom has **DHCP**, using a **static IP** prevents delays with the imag
 | **Raynet to RJ45 Cable** | Alternative: Cut & crimp Raynet cable | **~£50.00** |
 | **DC Power Cable** | 2.1mm x 5.5mm Male-to-Male (1M) | **~£2.00** |
 
-> *The camera is from Aliexpress with eBay and Amazon good sources for the other items*  
+> *The camera is from Aliexpress. eBay and Amazon good sources for the other items*  
 
