@@ -24,9 +24,9 @@ There is a Raynet to Raynet cable in the Axiom box. This can be cut in half and 
 The RJ45 diagram for this is shown later.
 
 Camera setup:
-Axiom is fussy, firstly relating to authentication and then the stream settings. Their compatible camera will work out of the box.  
+Axiom is fussy, firstly relating to authentication and then the stream settings.  
 The 3rd party camera needs some configuration and some cameras will just not work.
-Settings are show below, but essentially set the camera for H264, 1280x720 and a medium quality level.
+Settings are show later, but essentially set the camera for H264, 1280x720 and a medium quality level.
 You need to configure the camera on a PC, before attempting to connect it to the Axoim. Password for the web admin will be admin:123456 or admin:password or admin:admin, will be on the box somewhere.
 Turn off date and time in the On screen display – the camera will not be able to connect to the internet to get the correct date/time, so you don’t want 1st Jan 1970 being shown on the display.
 You may want to turn on the camera name, eg Port Engine etc.
