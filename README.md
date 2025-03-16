@@ -13,8 +13,8 @@ There are ways to connect third-party IP cameras, but existing guides are outdat
 
 ### **Camera:**  
 - *Recommended:* [Gadinan 8MP/5MP/4MP H.265 IP Camera](https://www.aliexpress.com) (Aliexpress)  
-  - Supports **4K** & **H.265**, but needs to run on **H.264 at 720p**  
-  - Recommended lens: **2.8mm focus**
+  - Supports 4K & H.265, but needs to run on **H.264 at 720p**  
+  - Recommended lens: **2.8mm focus** was ideal for my engine room
   - Must support ONVIF with authentication disabled
   - Use the 12v version and not the POE version  
 
