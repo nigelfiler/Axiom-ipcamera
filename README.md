@@ -27,8 +27,9 @@ Camera setup:
 Axiom is fussy, firstly relating to authentication and then the stream settings.  
 The 3rd party camera needs some configuration and some cameras will just not work.
 Settings are show later, but essentially set the camera for H264, 1280x720 and a medium quality level.
-You need to configure the camera on a PC, before attempting to connect it to the Axoim. Password for the web admin will be admin:123456 or admin:password or admin:admin, will be on the box somewhere.
-Turn off date and time in the On screen display – the camera will not be able to connect to the internet to get the correct date/time, so you don’t want 1st Jan 1970 being shown on the display.
+You need to configure the camera on a PC, before attempting to connect it to the Axiom. 
+Password for the web admin will be admin:123456 or admin:password or admin:admin, will be on the box somewhere.
+Turn off date and time in the on-screen display. The camera will not be able to connect to the internet to get the correct date/time, so you don’t want 1st Jan 1970 being shown on the display.
 You may want to turn on the camera name, eg Port Engine etc.
 Turn on ONVIF
 Disable ONVIF authentication
@@ -39,6 +40,19 @@ RTSP Port 554
 IPaddress:
 The Axiom provides DHCP so althought it is just a case of plugging the camera in and the Plotter will find the camera, it was found that a fixed IP address was more reliable.
 Using DHCP there was a pause when selecting the camera and sometimes the camera would go blank. When using a fixed IPaddress these issues went away.
+
+These manual settings worked better than DHCP:
+
+DHCP - Disable
+Enter an Axiom friendly fixed IP address and Subnet Mask
+IPaddress: 198.18.2.91
+Subnet: 255.255.248.0
+
+Enter the Axiom’s Default Gateway and Domain Server addresses
+198.18.2.46
+198.18.2.46
+
+Thanks to forum member: "5TC" on the Sealine forum for discovering this
 
 Cost:
 Gadinan 8MP/5MP/4MP H.265 IP Camera. Choose 12v version and not POE version £25. (Aliexpress)
