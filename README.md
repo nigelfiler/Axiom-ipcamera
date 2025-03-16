@@ -14,7 +14,8 @@ There are ways to connect third-party IP cameras, but existing guides are outdat
 ### **Camera:**  
 - *Recommended:* [Gadinan 8MP/5MP/4MP H.265 IP Camera](https://www.aliexpress.com) (Aliexpress)  
   - Supports **4K** & **H.265**, but needs to run on **H.264 at 720p**  
-  - Recommended lens: **2.8mm focus**  
+  - Recommended lens: **2.8mm focus**
+  - Must support ONVIF with authenitcation disabled  
 
 ### **Power Over Ethernet (POE) Considerations:**  
 - POE cameras require **48V**, which is not readily available on boats  
@@ -24,7 +25,7 @@ There are ways to connect third-party IP cameras, but existing guides are outdat
 ### **Network Connection:**  
 - Raymarine sells a **Raynet to RJ45 cable** (£50-£80)  
 - Alternative: Cut a **Raynet to Raynet cable** (included with Axiom) and crimp an **RJ45 connector**  
-- This method supports **two cameras** without needing a network hub  
+- This method supports **two cameras** without needing a network hub on Axiom Pro with 2 spare Raynet inputs
 
 ---
 
