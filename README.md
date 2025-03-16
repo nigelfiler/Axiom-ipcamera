@@ -51,10 +51,10 @@ There are ways to connect third-party IP cameras, but existing guides are outdat
 
 ---
 
-## 🌐 **IP Address Configuration**  
+## 🌐 **Camera IP Address Configuration**  
 
 ### **Static IP (Recommended for Stability)**
-Although Axiom has **DHCP**, using a **static IP** prevents delays with the image appearing and improves the reliabilty.
+Although Axiom has **DHCP**,and will provide a dynamic IP to the camera, using a **static IP** prevents delays with the image appearing and improves the reliabilty.
 
 #### **Manual IP Settings:**
 | Setting          | Value          |
