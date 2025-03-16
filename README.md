@@ -74,10 +74,11 @@ Although Axiom has **DHCP**, using a **static IP** prevents delays with the imag
 | Item | Description | Price |
 |------|------------|-------|
 | **Camera** | Gadinan 8MP/5MP/4MP H.265 IP Camera (12V version, NOT POE) | **£25.00** |
-| **RJ45 Female-to-Female** | Needed for connection from Raynet RJ45 end | **£3.00** |
+| **RJ45 Female-to-Female** | Needed for connecting Raynet RJ45 to Ethernet cable | **£3.00** |
 | **Passive POE Adapter** | For 12V power transmission | **£5.00** |
 | **Raynet to RJ45 Cable** | Alternative: Cut & crimp Raynet cable | **£50.00** |
 | **DC Power Cable** | 2.1mm x 5.5mm Male-to-Male (1M) | **£2.00** |
+| **Cat5/Cat6 Ethernet** | Choose one long enough to route from helm through boat to camera | **£10.00** |
 
 > *The camera is from Aliexpress. eBay and Amazon good sources for the other items*  
 
