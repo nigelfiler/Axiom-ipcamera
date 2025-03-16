@@ -14,7 +14,7 @@ This one is from Aliexpress and seems to work fine: Gadinan 8MP 5MP 4MP H.265 IP
 Although it is a 4k camera with H265, it needs to be run on H264 at 720.  I bought the one with a 2.8mm focus.
 
 POE:
-POE is Power over Ethernet, this means the camera is powered by the network cable, so no requirement to run separate power to the camera, however POE is 48v, which is not available on a boat without converters etc.
+Power over Ethernet means the camera is powered by the network cable, so no requirement to run separate power to the camera, however POE is 48v, which is not available on a boat without converters etc.
 A camera without POE was chosen. This type of camera has a single lead coming out that splits into an ethernet female and a DC connector. This requires 12v.
 A passive POE injector at both ends will allow 12v to run to the camera. 12V will be supplied from somewhere near the helm.
 
@@ -38,10 +38,10 @@ RTSP Port 554
 
 IPaddress:
 The Axiom provides DHCP so althought it is just a case of plugging the camera in and the Plotter will find the camera, it was found that a fixed IP address was more reliable.
-Using DHCP there was a pause when selecting the camera and sometimes the camera would go blank. When using a fixed IPaddress these issues went away
+Using DHCP there was a pause when selecting the camera and sometimes the camera would go blank. When using a fixed IPaddress these issues went away.
 
 Cost:
-Gadinan 8MP/5MP/4MP H.265 IP Camera £25 (Aliexpress)
+Gadinan 8MP/5MP/4MP H.265 IP Camera. Choose 12v version and not POE version £25. (Aliexpress)
 RJ45 Female to Female: £3
 Passive POE Adaptor: £1.67
 Raynet to Raynet cable, or Raynet to RJ45 Cable (about £50)
