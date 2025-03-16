@@ -78,13 +78,5 @@ Although Axiom has **DHCP**, using a **static IP** prevents delays with the imag
 | **Raynet to RJ45 Cable** | Alternative: Cut & crimp Raynet cable | **~£50** |
 | **DC Power Cable** | 2.1mm x 5.5mm Male-to-Male (1M) | **~£2** |
 
----
 
-## ✅ **Conclusion**  
-
-By following this guide, you can successfully integrate an affordable **IP camera** with a **Raymarine Axiom plotter**—saving **hundreds of pounds** compared to official Raymarine cameras!  
-
----
-
-Would you like any additional images, diagrams, or further refinements? 🚀
 
