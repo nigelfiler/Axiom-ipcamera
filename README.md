@@ -9,7 +9,7 @@ There are ways to connect third-party IP cameras, but existing guides are outdat
 ## 📌 **Hardware Requirements**  
 
 ### **Plotter:**  
-- **Raymarine Axiom Pro 9**  
+- **Raymarine Axiom Pro 9 and other similar models-**  
 
 ### **Camera:**  
 - *Recommended:* [Gadinan 8MP/5MP/4MP H.265 IP Camera](https://www.aliexpress.com) (Aliexpress)  
