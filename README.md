@@ -21,7 +21,7 @@ A passive POE injector at both ends will allow 12v to run to the camera. 12V wil
 Axiom Network:
 Axiom sells a Raynet to RJ45 cable, they are £50-£80 depending on length.
 There is a Raynet to Raynet cable in the Axiom box. This can be cut in half and a RJ45 can be crimped on the end. This will yield 2 cables, and therefore support 2 cameras without a network hub.
-The RJ45 diagram for this is shown below.
+The RJ45 diagram for this is shown later.
 
 Camera setup:
 Axiom is fussy, firstly relating to authentication and then the stream settings. Their compatible camera will work out of the box.  
@@ -36,13 +36,13 @@ ONVIF compatibility is very important, the Axiom needs to be able to access the 
 RTSP Auth Enable – Not Enabled
 RTSP Port 554
 
-As can be seen below, 2 cameras were connected, 1 into each of the 2 network ports on the back of the plotter.
-
 IPaddress:
-The Axiom provides DHCP so it is just a case of plugging the camera in and the Plotter will find the camera. It may be necessary to enable DHCP in the camera menu initially.
+The Axiom provides DHCP so althought it is just a case of plugging the camera in and the Plotter will find the camera, it was found that a fixed IP address was more reliable.
+Using DHCP there was a pause when selecting the camera and sometimes the camera would go blank. When using a fixed IPaddress these issues went away
 
 Cost:
-Camera: £24.50 +VAT
+Gadinan 8MP/5MP/4MP H.265 IP Camera £25 (Aliexpress)
 RJ45 Female to Female: £3
 Passive POE Adaptor: £1.67
-Misc parts: £5
+Raynet to Raynet cable, or Raynet to RJ45 Cable (about £50)
+2.1mm x 5.5mm DC Connector Male to Male Power Cable 1Mtr (about £2)
