@@ -2,7 +2,7 @@
 #### *How to add an IP camera to a Raymarine Axiom plotter*
 
 Raymarine offers a range of cameras for their Axiom Pro plotters, but they can cost upwards of **£500**.  
-There are ways to connect third-party IP cameras, but existing guides are outdated, and some cameras are discontinued. This guide provides an updated method.
+There are ways to connect third-party IP cameras, but existing guides are outdated, and some cameras are discontinued. This guide provides an updated method that worked for me and others that followed the guide
 
 ---
 
