@@ -75,7 +75,7 @@ Although Axiom has **DHCP**,and will provide a dynamic IP to the camera, using a
 |------|------------|-------|
 | **Camera** | Gadinan 8MP/5MP/4MP H.265 IP Camera (12V version, NOT POE) | **£25.00** |
 | **RJ45 Female-to-Female** | Needed for connecting Raynet RJ45 to Ethernet cable | **£3.00** |
-| **Passive POE Adapter set** | Injector: RJ45 Male + Power In to RJ45 Female Splitter: RJ45 Female to RJ45 Male + Power Out. For 12v injection to feed camera| **£5.00** |
+| **Passive POE Adapter set** | Helm end - Injector: RJ45 Male + Power In to RJ45 Female Splitter. Camera end - RJ45 Female to RJ45 Male + Power Out. For 12v injection to feed camera| **£5.00** |
 | **Raynet to RJ45 Cable** | Alternative: Cut & crimp Raynet cable (May be supplied with Axiom) | **£50.00** |
 | **DC Power Cable** | 2.1mm x 5.5mm Male-to-Male (1M) | **£2.00** |
 | **Cat5/Cat6 Ethernet** | Choose one long enough to route from helm through boat to camera | **£10.00** |
