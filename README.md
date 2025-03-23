@@ -65,7 +65,9 @@ Although Axiom has **DHCP**,and will provide a dynamic IP to the camera, using a
 | Default Gateway | `198.18.2.46` |
 | DNS Server     | `198.18.2.46` |
 
-> *Thanks to forum member "5TC" on the Sealine forum for discovering and documenting this*  
+> *Thanks to forum member "5TC" on the Sealine forum for discovering and documenting this*
+>
+> Note: Use of DHCP is possible, however this causes a slight delay when selecting the camera.
 
 ---
 
