@@ -71,7 +71,7 @@ Although Axiom has **DHCP**, and will provide a dynamic IP to the camera, using 
 
 ---
 
-## 💰 **Approx Cost Breakdown**  
+## 💰 **Parts and Cost Breakdown**  
 
 | Item | Description | Price |
 |------|------------|-------|
