@@ -20,14 +20,15 @@ There are ways to connect third-party IP cameras, but existing guides are outdat
 
 ### **Power Over Ethernet (POE) Considerations:**  
 - POE cameras require **48V**, which is not readily available on boats  
-- Instead, a **12V camera** is used with a **passive POE injector**  
+- Instead, a **12V camera** is used with a [**passive POE injector**](./POE_Injector_Pair.jpeg)
+
 - **Power Source:** 12V near the helm  
 
 ### **Network Connection:**  
 - Raymarine sells a **Raynet to RJ45 cable** (£50-£80)  
 - Alternative: Cut a **Raynet to Raynet cable** (May be in the Axiom box) and crimp an **RJ45 connector**  This will give you 2 cables. Follow the wiring in the file This will give you 2 cables. Follow the wiring in the file [**RJ45**](./RJ45.png)
 
-- This method supports **two cameras** without needing a network hub on Axiom Pro with 2 spare Raynet inputs
+- This method supports **two cameras** without needing a network hub on Axiom Pro models with 2 spare Raynet inputs
 
 ---
 
@@ -66,7 +67,7 @@ Although Axiom has **DHCP**, and will provide a dynamic IP to the camera, using 
 | Default Gateway | `198.18.2.46` |
 | DNS Server     | `198.18.2.46` |
 
-> *Thanks to forum member "5TC" on the Sealine forum for discovering and documenting this*
+> *Thanks to forum member "5TC" on the [Sealine forum] (https://sealineforum.forumotion.com) for discovering and documenting this*
 >
 > Note: Use of DHCP is possible, however this causes a slight delay when selecting the camera.
 
