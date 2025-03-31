@@ -90,7 +90,7 @@ Although Axiom has **DHCP**, and will provide a dynamic IP to the camera, using 
 
 
 
-## Updates from the Pontoon 
+## **Updates from the Pontoon** 
 
 Some users have kindly provided feedback via the Sealine Forum and the YBW forum.
 I will try to collate all information here.
