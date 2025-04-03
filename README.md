@@ -26,7 +26,7 @@ There are ways to connect third-party IP cameras, but existing guides are outdat
 
 ### **Network Connection:**  
 - Raymarine sells a **Raynet to RJ45 cable** (£50-£80)  
-- Alternative: Cut a **Raynet to Raynet cable** (May be in the Axiom box) and crimp an **RJ45 connector**  This will give you 2 cables. Follow the wiring in the file This will give you 2 cables. Follow the wiring in the file [**RJ45**](./RJ45.png)
+- Alternative: Cut a **Raynet to Raynet cable** (May be in the Axiom box) and crimp an **RJ45 connector**  This will give you 2 cables. Follow the wiring in the file This will give you 2 cables. [**RJ45**](./RJ45.png)
 
 - This method supports **two cameras** without needing a network hub on Axiom Pro models with 2 spare Raynet inputs
 
