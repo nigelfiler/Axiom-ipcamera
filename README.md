@@ -95,8 +95,8 @@ Although Axiom has **DHCP**, and will provide a dynamic IP to the camera, using 
 Some users have kindly provided feedback via the Sealine Forum and the YBW forum.
 I will try to collate all information here.
 
-Be aware that Raymarine and the camera manufacturers can change their firmware at any time which can then cause the camera to stop working
+Be aware that Raymarine and the camera manufacturers can change their firmware at any time which can then cause the camera to stop working.
 
-**DipperToo** from YBW forum reports success with SV3C camera 806POE-5MP-HX. This is a POE camera which he powers using a Teltonika automotive router. Full description: SV3C 5MP PoE CCTV Security Camera Outdoor, Cameras House Security with 20M IR Night Vision, Security IP Camera Outdoor with Human/Vehicle Detection, Build-in MIC, SD card & Cloud, Waterproof, No WIFI
+**DipperToo** from YBW forum reports success with SV3C camera 806POE-5MP-HX. This is a POE camera which he powers using a Teltonika automotive router. Full description: SV3C 5MP PoE CCTV Security Camera Outdoor, Cameras House Security with 20M IR Night Vision, Security IP Camera Outdoor with Human/Vehicle Detection, Build-in MIC, SD card & Cloud, Waterproof, No WIFI.
 
-**Kendal** from YBW reports success with a Dahua nv-ib2b40-zs on Axiom 7
+**Kendal** from YBW reports success with a Dahua nv-ib2b40-zs on Axiom 7.
