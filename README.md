@@ -100,3 +100,7 @@ Be aware that Raymarine and the camera manufacturers can change their firmware a
 **DipperToo** from YBW forum reports success with SV3C camera 806POE-5MP-HX. This is a POE camera which he powers using a Teltonika automotive switch (Teltonika TSW101). Full description: SV3C 5MP PoE CCTV Security Camera Outdoor, Cameras House Security with 20M IR Night Vision, Security IP Camera Outdoor with Human/Vehicle Detection, Build-in MIC, SD card & Cloud, Waterproof, No WIFI.
 
 **Kendal** from YBW reports success with a Dahua nv-ib2b40-zs on Axiom 7.
+
+**AngusMcDoon** from YBW wrote an article in 2022 that pre-dates this page. His page explains how to use a 12v Ethernet Switch (**Brainbox SW-005**) to connect multiple devices over the network [Link to YBW](https://forums.ybw.com/threads/raymarine-axiom-camera-connection-yapp.588531/)
+
+Another resource which is from 2019 is here [Link](https://panbo.com/broad-ip-camera-support-a-raymarine-advantage/) The author has 7 cameras connected into the Axiom Plotter and has also setup on the network a surveillance server based on Blue Iris.
