@@ -101,6 +101,6 @@ Be aware that Raymarine and the camera manufacturers can change their firmware a
 
 **Kendal** from YBW reports success with a Dahua nv-ib2b40-zs on Axiom 7.
 
-**AngusMcDoon** from YBW wrote an article in 2022 that pre-dates this page. His page explains how to use a 12v Ethernet Switch (**Brainbox SW-005**) to connect multiple devices over the network [Link to YBW](https://forums.ybw.com/threads/raymarine-axiom-camera-connection-yapp.588531/)
+**AngusMcDoon** from YBW wrote an article in 2022 that pre-dates this page. His page also explains how to use a 12v Ethernet Switch (**Brainbox SW-005**) to connect multiple devices over the network [Link to YBW](https://forums.ybw.com/threads/raymarine-axiom-camera-connection-yapp.588531/)
 
 Another resource which is from 2019 is here [Link](https://panbo.com/broad-ip-camera-support-a-raymarine-advantage/) The author has 7 cameras connected into the Axiom Plotter and has also setup on the network a surveillance server based on Blue Iris.
