@@ -70,7 +70,8 @@ Although Axiom has **DHCP**, and will provide a dynamic IP to the camera, using 
 
 > *Thanks to forum member "**5TC**" on the [Sealine forum](https://sealineforum.forumotion.com) for discovering and documenting this*
 >
-> Note: Use of DHCP is possible, however this causes a slight delay when selecting the camera.
+> Note: Use of DHCP is possible, however this causes a slight delay when selecting the camera, and when displaying the initial video stream sometimes the stream will disappear after a second.
+> Using the recommended IP settings also allows access to the camera web menu via the Axiom settings and network page.
 
 ---
 
