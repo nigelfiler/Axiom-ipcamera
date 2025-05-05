@@ -52,7 +52,6 @@ There are ways to connect third-party IP cameras, but existing guides are outdat
    - **RTSP Authentication:** Disabled  
    - **RTSP Port:** 554
    
-   **
 Easy way to test camera at home using VLC.
 In VLC, File, Open Network, past in the URL below, but modify based on your actual IP address
 rtsp://192.168.0.210:554/user=admin&password=123456&channel=1&stream=0.sdp?
