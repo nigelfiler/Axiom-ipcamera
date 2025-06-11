@@ -79,6 +79,14 @@ Although Axiom has **DHCP**, and will provide a dynamic IP to the camera, using 
 
 ---
 
+## 🛠 **Camera Firmware**
+My Gadinan camera has firmware version v1.08
+In May 2025 they were shipping V1.14.91 which also works. 
+Later firmware may cause issues.
+
+
+---
+
 ## 💰 **Parts and Cost Breakdown**  
 
 | Item | Description | Price |
