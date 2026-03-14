@@ -118,3 +118,7 @@ Be aware that Raymarine and the camera manufacturers can change their firmware a
 **AngusMcDoon** from YBW wrote an article in 2022 that pre-dates this page. His page also explains how to use a 12v Ethernet Switch (**Brainbox SW-005**) to connect multiple devices over the network [Link to YBW](https://forums.ybw.com/threads/raymarine-axiom-camera-connection-yapp.588531/)
 
 Another resource which is from 2019 is here [Link](https://panbo.com/broad-ip-camera-support-a-raymarine-advantage/) The author has 7 cameras connected into the Axiom Plotter and has also setup on the network a surveillance server based on Blue Iris.
+
+**March 2026** Since updating the plotter to V4.10.149, the camera is not found on 198.18.2.xxx or on 198.18.0.xxx  
+I have set the camera to DHCP and it receives an address from the plotter in the range 10.22.7.xxx  
+For now, if your camera is not longer on the network, try setting it to DHCP.
